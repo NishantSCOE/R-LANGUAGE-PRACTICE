@@ -1,0 +1,7 @@
+a =matrix(2,3,3)
+print(a)
+b=matrix(1,3,3)
+print(b)
+
+print(a*b)#element wise multiplication
+print(a%*%b)#regular matrix multiplication

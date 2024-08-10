@@ -1,0 +1,11 @@
+A = matrix(c(1,2,3,4,5,6,7,8,9),nrow=3,ncol=3,byrow=TRUE)
+# print(A)
+B=matrix(1,3,1)
+C = cbind(A,B)
+print((C))
+
+# A = matrix(c(1,2,3,4,5,6,7,8,9),nrow=3,ncol=3,byrow=TRUE)
+# print(A)
+# B=matrix(1,1,3)
+# C = rbind(A,B)
+# print((C))
